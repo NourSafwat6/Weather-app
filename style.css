@@ -1,0 +1,154 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and Background */
+  body {
+    font-family: Arial, sans-serif;
+    background: #1e1e2e;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  /* Header Section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #2a2a40;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-links a:hover {
+    color: #00aaff;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('https://via.placeholder.com/1200x300');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .search-input {
+    padding: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search-btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background: #00aaff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-btn:hover {
+    background: #0088cc;
+  }
+  
+  /* Weather Cards */
+  .weather-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #2a2a40;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .card h3 {
+    color: #00aaff;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+  /* Footer Section */
+.footer {
+    background: #2a2a40;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  
+  .subscribe-section {
+    margin-bottom: 20px;
+  }
+  
+  .subscribe-input {
+    padding: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .subscribe-btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background: #00aaff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .subscribe-btn:hover {
+    background: #0088cc;
+  }
+  
+  .social-icons {
+    margin-top: 15px;
+  }
+  
+  .social-icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #00aaff;
+    font-size: 1rem;
+  }
+  
+  .social-icon:hover {
+    color: #0088cc;
+  }
+  
+  .copyright {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    opacity: 0.7;
+  }
